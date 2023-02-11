@@ -3,7 +3,7 @@
 :root{
   --accent-color: #4D5AE5;
 --secodori-color:#FFFFFF;
-  
+--third-color:  #404BBF;
 
 }
  .list {
@@ -25,7 +25,9 @@ body {
   line-height: 1.5;  
   display: flex;
   align-items: center;
-  letter-spacing: 0.04em;  
+  letter-spacing: 0.04em; 
+  color: #FFFFFF;
+  background-color:  #4D5AE5; 
   cursor: pointer; 
 }
 
@@ -41,7 +43,7 @@ align-items: center;
 padding: 12px 24px;
 width: 69px;
 height: 48px;
-background: #404BBF;
+background: var(--third-color);
 color: var(--secodori-color);
 }
 
@@ -54,7 +56,7 @@ color: var(--secodori-color);
   text-align: center;
   letter-spacing: 0.04em;  
   color: var(--secodori-color);  
-  background: #404BBF;
+  background: var(--third-color);
   cursor: pointer
 }
 .service-port-btn:hover,
