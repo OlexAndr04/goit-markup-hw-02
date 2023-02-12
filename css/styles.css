@@ -1,4 +1,4 @@
- /* reset styles */
+ /*----------------- reset styles----------------------- */
 
 :root{
   --accent-color: #4D5AE5;
@@ -17,7 +17,7 @@ body {
 }
   
 
-/* Compontnts */
+/* ---------------------Compontnts -----------------------*/
 
 .service-btn {  
   font-weight: 500;
@@ -27,14 +27,14 @@ body {
   align-items: center;
   letter-spacing: 0.04em; 
   color: #FFFFFF;
-  background-color:  #4D5AE5; 
+  background:  var(--third-color); 
   cursor: pointer; 
 }
 
 .service-btn:hover,
 .service-btn:focus {
   background-color: var(--accent-color);
-  color: var(--secodori-color) 
+  
   }
 .port-baton-all{
  display: flex;
@@ -44,7 +44,7 @@ padding: 12px 24px;
 width: 69px;
 height: 48px;
 background: var(--third-color);
-color: var(--secodori-color);
+ 
 }
 
 
@@ -55,31 +55,21 @@ color: var(--secodori-color);
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;  
-  color: var(--secodori-color);  
-  background: var(--third-color);
+  color: #000000;  
+  background: #F4F4FD;
   cursor: pointer
 }
+
+
+
+
+
 .service-port-btn:hover,
 .service-port-btn:focus {
-  background-color: #F4F4FD
+  background-color: #D9D9D9;
 }
 
-.port-baton-menu{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--accent-color);
-background: #F4F4FD;
-cursor: pointer
-}
-
-.port-fon{
- background-color:  #E7E9FC; 
-}
-/* header */
+/*---------------- header----------------- */
 
 .logo-link {
 font-family: 'Raleway',sans-serif;
@@ -113,7 +103,7 @@ text-transform: uppercase;
     color:  var(--accent-color) ;
   }
   
-/* contact */
+/* -------------------contact --------------------*/
 
 .contact-tel {
   font-family: 'Roboto', sans-serif;
@@ -130,7 +120,7 @@ text-transform: uppercase;
 }
 
 
-/* Title */
+/* -----------------Title ------------------*/
 
 .hero-name { 
 
@@ -145,7 +135,7 @@ color: var(--secodori-color);
   background-color: #2E2F42;
 }
 
-/* Strategy */
+/* -----------------------Strategy --------------------*/
 .second-title{
   font-weight: 700;
   font-size: 36px;
@@ -153,8 +143,9 @@ color: var(--secodori-color);
   text-align: center;
   letter-spacing: 0.02em;  
   color: #2E2F42;
-  background: #E5E5E5;
+  ;
 }
+
 
 .third-title{
 font-weight: 500;
@@ -172,22 +163,26 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-/* What are we doing */
+/* -----------------What are we doing------------------- */
 
-.duing-section{
-  background: #E5E5E5 ;
+
   
-}
-/* Our Team */
+
+/* ----------------------Our Team------------------- */
 .our-team-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5; 
   letter-spacing: 0.02em;  
   color: #434455;
-  background: #F4F4FD;
-}
-/* footer */
+   
+  }
+  .our-team-fon{
+    background: #E5E5E5;
+  }
+
+/* ----------------------footer -----------------------*/
+
 .footer-text{  
 font-weight: 400;
 font-size: 16px;
