@@ -4,7 +4,7 @@
   --accent-color: #4D5AE5;
 --secodori-color:#FFFFFF;
 --third-color:  #404BBF;
-
+--fourth-color: #2E2F42;
 }
  .list {
     list-style: none;
@@ -14,6 +14,7 @@
 }
 body {
   font-family: 'Roboto',sans-serif;
+  background-color: #FFFFFF;
 }
   
 
@@ -27,35 +28,36 @@ body {
   align-items: center;
   letter-spacing: 0.04em; 
   color: #FFFFFF;
-  background:  var(--third-color); 
+  background:  var(--accent-color );
   cursor: pointer; 
 }
 
 .service-btn:hover,
 .service-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--third-color);
   
   }
 .port-baton-all{
- display: flex;
+display: flex;
 flex-direction: row;
 align-items: center;
 padding: 12px 24px;
 width: 69px;
 height: 48px;
-background: var(--third-color);
+background: var(--accent-color);
  
 }
 
 
 .port-baton{
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;  
-  color: #000000;  
+  color: var(--accent-color);  
   background: #F4F4FD;
   cursor: pointer
 }
@@ -66,7 +68,7 @@ background: var(--third-color);
 
 .service-port-btn:hover,
 .service-port-btn:focus {
-  background-color: #D9D9D9;
+  background-color:#E7E9FC;
 }
 
 /*---------------- header----------------- */
@@ -76,14 +78,14 @@ font-family: 'Raleway',sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-color:  #2E2F42;
+color:  var(--fourth-color);
 background:  var(--secodori-color); 
  
 text-transform: uppercase;
 }
 .logo-link:hover,
 .logo-link:focus{
-   color: #2E2F42;
+   color: var(--fourth-color);
 }
 .logo-text{
   color: var(--accent-color);
@@ -96,7 +98,7 @@ text-transform: uppercase;
   font-size: 16px;
   line-height: 1.5px;  
   letter-spacing: 0.02em;  
-  color: #2E2F42;
+  color: var(--fourth-color);
   }
   .menu-item:hover,
   .menu-item:focus {
@@ -132,7 +134,7 @@ letter-spacing: 0.02em;
 color: var(--secodori-color);
 }
 .title-fon{
-  background-color: #2E2F42;
+  background-color: var(--fourth-color);
 }
 
 /* -----------------------Strategy --------------------*/
@@ -142,7 +144,7 @@ color: var(--secodori-color);
   line-height: 1.11;  
   text-align: center;
   letter-spacing: 0.02em;  
-  color: #2E2F42;
+  color: var(--fourth-color);
   ;
 }
 
@@ -152,7 +154,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--fourth-color);
 }
 
 .strategi-text{
@@ -192,10 +194,10 @@ color: #FFFFFF
 
 }
 .footer-fon{
-background:  #2E2F42;
+background:  var(--fourth-color);
 }
 .web-fon{
-background:  #2E2F42;
+background:  var(--fourth-color);
 }
 .studio-test{
   color: #FFFFFF;
